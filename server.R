@@ -23,7 +23,7 @@ server <- function(input, output, session) {
       datasetInput <- reactive({
         # define the wd for the example dataset 
         # AND HAS TO BE CHANGED ACCORDINGLY
-        dataset <- read.csv("~/GitHub/DscoreApp/raceAPP.csv")
+        dataset <- read.csv("raceAPP.csv")
       })
     } else {
       # if the toy dataset has not been found --> import and store users' dataset
